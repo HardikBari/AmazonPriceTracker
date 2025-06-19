@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite" parallel="methods" thread-count="1">
+
+    <test name="PriceTrackingTest">
+        <classes>
+            <class name="TestCases.PriceTracker"/>
+        </classes>
+    </test>
+
+</suite>
