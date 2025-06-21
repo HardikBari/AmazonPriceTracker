@@ -29,6 +29,7 @@ git clone https://github.com/YourUsername/AmazonPriceTracker.git
 cd AmazonPriceTracker
 ```
 2.**Add product details to ItemData.json**:
+```bash
 [
 
   {
@@ -67,6 +68,7 @@ cd AmazonPriceTracker
 
     }
 ]
+```
 3. **Run tests via TestNG:**
 Right-click on testng.xml → Run as → TestNG Suite
 
