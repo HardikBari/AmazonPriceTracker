@@ -25,7 +25,7 @@ A real-time Amazon product price tracker built using **Java, Selenium WebDriver,
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/YourUsername/AmazonPriceTracker.git
+git clone (https://github.com/HardikBari/AmazonPriceTracker.git)
 cd AmazonPriceTracker
 ```
 2.**Add product details to ItemData.json**:
