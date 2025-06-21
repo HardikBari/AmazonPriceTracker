@@ -16,7 +16,8 @@ public class datareader extends BaseTest {
     public Object[][] getData() throws IOException {
         List<HashMap<String,String>> data= getjsondata();
         Object[][] result = new Object[data.size()][1];
-
+//        Object[][] result = new Object[1][1];  // 1 row, 1 column
+//        result[0][0] = data.get(0); // you are returning only the FIRST map
         for (int i = 0; i < data.size(); i++) {
             result[i][0] = data.get(i);// pass entire HashMap as one object
             //System.out.println(result[i][0]);

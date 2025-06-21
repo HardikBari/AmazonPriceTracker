@@ -40,6 +40,10 @@ public class BaseTest {
         driver.remove();      // Remove driver from ThreadLocal to avoid memory leaks
     }
 
+    public void GoTo(String url) {
+        getDriver().get(url);
+    }
+
     public List<HashMap<String, String>> getjsondata() throws IOException {
 
         String jsoncontent= FileUtils.readFileToString(new File(System.getProperty("user.dir") + "//src//test//resources//itemData.json"), "UTF-8");
@@ -68,4 +72,3 @@ public class BaseTest {
            return url;
        }
        }
-

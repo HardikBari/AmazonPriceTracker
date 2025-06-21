@@ -20,8 +20,7 @@ public class PriceTracker extends BaseTest {
     @Test(dataProvider = "jsonData", dataProviderClass = datareader.class)
 
     public void trackPrice(HashMap<String, String> input) throws IOException, InterruptedException {
-        String url = geturl();
-        getDriver().get(url);
+        GoTo(geturl());
         List<WebElement> continuebtn = getDriver().findElements(By.xpath("//button[text()='Continue shopping']"));
         if (!continuebtn.isEmpty()) {
             continuebtn.get(0).click();
