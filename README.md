@@ -69,7 +69,22 @@ cd AmazonPriceTracker
     }
 ]
 ```
-3. **Run tests via TestNG:**
-Right-click on testng.xml → Run as → TestNG Suite
+3. ## 🧪 How to Run the Project
+
+### ✅ Option 1: Run via IntelliJ (GUI)
+1. Open the project in IntelliJ.
+2. Open `testng.xml` file.
+3. Right-click on `testng.xml` → **Run 'testng.xml'**.
+
+---
+
+### ✅ Option 2: Run via Maven (Recommended for CI)
+
+1. Open terminal inside the project root (where `pom.xml` is located).
+2. Run the following command:
+
+```bash
+mvn clean test
+
 
 
